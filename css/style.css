@@ -13,3 +13,31 @@ body {
   background: #f9fafb;
   color: #1f2937;
 }
+
+header, nav, main, footer {
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
